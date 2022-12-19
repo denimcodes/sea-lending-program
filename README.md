@@ -19,9 +19,9 @@ Now let's get started with writing the program in the playground. For now we wil
 
 Solana program states are stored in data accounts. There are three accounts involved here which are used for storing the state of the lending program.
 
-1. `LendingProgram` -> This program stores the owner which has authority to manage tokens of reserve.
+1. `LendingProgram` -> This account stores the owner which has authority to manage tokens of reserve.
 2. `Reserve` -> The reserve holds tokens of specific mint which are deposited by the users. It has state which keeps tracks of liquidity tokens and collateral tokens of users.
-3. `Obligation` -> This program is a contract between user and the lending program. It keeps track of users deposits and borrows from reserve.
+3. `Obligation` -> This account is a contract between user and the lending program. It keeps track of users deposits and borrows from reserve.
 
 #### Program Instructions
 
@@ -42,6 +42,10 @@ There are seven instructions in this program.
 1. Copy the contents from `seahorse.test.ts` to the file with same name in Solana playground.
 2. Click on Test button.
 3. The test results will be shown on console.
+
+#### Todo
+[] Setup borrow and supply rates.
+[] Get market data from oracle (pyth).
 
 #### Motivation
 
