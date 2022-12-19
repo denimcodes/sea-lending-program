@@ -15,7 +15,7 @@ Now let's get started with writing the program in the playground. For now we wil
 3. Now click on Build & Deploy tab on the toolbar on the left. Click on build button. The status of the build will be shown on the console.
 4. Deploy the program.
 
-##### Program state
+#### Program state
 
 Solana program states are stored in data accounts. There are three accounts involved here which are used for storing the state of the lending program.
 
@@ -23,7 +23,7 @@ Solana program states are stored in data accounts. There are three accounts invo
 2. `Reserve` -> The reserve holds tokens of specific mint which are deposited by the users. It has state which keeps tracks of liquidity tokens and collateral tokens of users.
 3. `Obligation` -> This program is a contract between user and the lending program. It keeps track of users deposits and borrows from reserve.
 
-##### Program Instructions
+#### Program Instructions
 
 Instructions are functions where logic of the program is stored. We can create new accounts, create tokens, mint and transfer tokens with instructions. Instructions can be called from client programs.
 
