@@ -44,8 +44,9 @@ There are seven instructions in this program.
 3. The test results will be shown on console.
 
 #### Todo
-[] Setup borrow and supply rates.
-[] Get market data from oracle (pyth).
+
+- [ ] Setup borrow and supply rates.
+- [ ] Get market data from oracle (pyth).
 
 #### Motivation
 
